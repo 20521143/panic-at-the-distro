@@ -32,7 +32,7 @@ This repository contains the source code and data for the paper titled "A Study 
 | VirusTotal                    | https://www.virustotal.com/                                              | Binary scanner      |
 | cg-packj                      | [cg-packj](./code/scripts/cg-packj/)                                     | Source code scanner |
 | OSSGadget OSS Detect Backdoor | https://github.com/microsoft/OSSGadget/tree/main/src/oss-detect-backdoor | Source code scanner |
-| bincapz                       | https://github.com/chainguard-dev/bincapz                                | Binary scanner      |
+| Malcontent                       | https://github.com/chainguard-dev/malcontent                                | Binary scanner      |
 | capslock                      | https://github.com/google/capslock                                       | Source code scanner |
 | bandit4mal                    | https://github.com/lyvd/bandit4mal                                       | Source code scanner |
 
