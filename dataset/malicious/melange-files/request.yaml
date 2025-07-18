@@ -1,0 +1,40 @@
+package:
+  name: request 
+  version: 1.0.117
+  epoch: 0
+  description: "request"
+  copyright:
+    - license: BSD-3-Clause
+  dependencies:
+    runtime:
+      - python3
+
+environment:
+  contents:
+    keyring:
+      - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+    repositories:
+      - https://packages.wolfi.dev/os
+    packages:
+      - build-base
+      - busybox
+      - ca-certificates-bundle
+      - py3-pip
+      - py3-setuptools
+      - python3
+      - wolfi-base
+
+pipeline:
+  - uses: git-checkout
+    with:
+      repository: https://github.com/pakaremon/request 
+      tag: ${{package.version}}
+      expected-commit: 9afcfd13ef052e9ded7b870a9bffda9061ea51db 
+
+  - runs: |
+      python3 setup.py build 
+
+  - runs: |
+      python3 setup.py install --prefix=/usr --root="${{targets.destdir}}" --skip-build
+
+  

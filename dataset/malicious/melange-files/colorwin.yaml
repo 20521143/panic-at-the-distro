@@ -1,0 +1,42 @@
+package:
+  name: colorwin 
+  version: 6.6.8
+  epoch: 0
+  description: "colorwin"
+  copyright:
+    - license: BSD-3-Clause
+  dependencies:
+    runtime:
+      - python3
+
+environment:
+  contents:
+    keyring:
+      - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+    repositories:
+      - https://packages.wolfi.dev/os
+    packages:
+      - build-base
+      - busybox
+      - ca-certificates-bundle
+      - py3-pip
+      - py3-setuptools
+      - python3
+      - wolfi-base
+
+pipeline:
+  - uses: git-checkout
+    with:
+      repository: https://github.com/lyvd/colorwin 
+      tag: ${{package.version}}
+      expected-commit: 6ee01b36240d0c4f8c5dc11db153bccc8f844024 
+
+  - runs: |
+      python3 setup.py build 
+
+  - runs: |
+      python3 setup.py install --prefix=/usr --root="${{targets.destdir}}" --skip-build
+
+  - uses: strip
+
+

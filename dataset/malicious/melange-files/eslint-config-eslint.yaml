@@ -1,0 +1,39 @@
+package:
+  name:  Eslint-config-eslint
+  version: 5.0.2
+  epoch: 0
+  description: An AST-based pattern checker for JavaScript
+  copyright:
+    - license: MIT
+  dependencies:
+    runtime:
+      - nodejs
+
+environment:
+  contents:
+    keyring:
+      - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+    repositories:
+      - https://packages.wolfi.dev/os
+    packages:
+      - build-base
+      - busybox
+      - ca-certificates-bundle
+      - nodejs
+      - npm
+      - rsync
+      - wolfi-base
+
+pipeline:
+  - uses: git-checkout
+    with:
+      repository: https://github.com/pakaremon/Eslint-config-eslint 
+      tag: ${{package.version}}
+      expected-commit: 7fd6980098350356f4bd5d3d88ca091a37056f73 
+
+  - runs: |
+      npm install 
+      mkdir -p ${{targets.destdir}}/usr/lib/node_modules/Eslint-config-eslint
+      rsync -av --exclude='Eslint-config-eslint.yaml' /home/build/* ${{targets.destdir}}/usr/lib/node_modules/Eslint-config-eslint
+  - uses: strip
+

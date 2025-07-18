@@ -1,0 +1,42 @@
+package:
+  name: aioconsol 
+  version: 1.0
+  epoch: 0
+  description: "aioconsol"
+  copyright:
+    - license: BSD-3-Clause
+  dependencies:
+    runtime:
+      - python3
+
+environment:
+  contents:
+    keyring:
+      - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+    repositories:
+      - https://packages.wolfi.dev/os
+    packages:
+      - build-base
+      - busybox
+      - ca-certificates-bundle
+      - py3-pip
+      - py3-setuptools
+      - python3
+      - wolfi-base
+
+pipeline:
+  - uses: git-checkout
+    with:
+      repository: https://github.com/lyvd/aioconsol 
+      tag: ${{package.version}}
+      expected-commit: 51fce6a70ed8c00d4d1e4186f089fe779ff39b02 
+
+  - runs: |
+      python3 setup.py build 
+
+  - runs: |
+      python3 setup.py install --prefix=/usr --root="${{targets.destdir}}" --skip-build
+
+  - uses: strip
+
+

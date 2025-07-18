@@ -1,0 +1,42 @@
+package:
+  name: apple-py-music 
+  version: 1.0
+  epoch: 0
+  description: "apple-py-music"
+  copyright:
+    - license: BSD-3-Clause
+  dependencies:
+    runtime:
+      - python3
+
+environment:
+  contents:
+    keyring:
+      - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+    repositories:
+      - https://packages.wolfi.dev/os
+    packages:
+      - build-base
+      - busybox
+      - ca-certificates-bundle
+      - py3-pip
+      - py3-setuptools
+      - python3
+      - wolfi-base
+
+pipeline:
+  - uses: git-checkout
+    with:
+      repository: https://github.com/lyvd/apple-py-music 
+      tag: ${{package.version}}
+      expected-commit: a39b62077e7acdf238c75bbd31c5cd5527f4e4e5 
+
+  - runs: |
+      python3 setup.py build 
+
+  - runs: |
+      python3 setup.py install --prefix=/usr --root="${{targets.destdir}}" --skip-build
+
+  - uses: strip
+
+

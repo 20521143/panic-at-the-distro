@@ -1,0 +1,38 @@
+package:
+  name: fijiwashere12323 
+  version: 0.0.0
+  epoch: 0
+  description: "fijiwashere12323"
+  copyright:
+    - license: BSD-3-Clause
+  dependencies:
+    runtime:
+      - python3
+
+environment:
+  contents:
+    keyring:
+      - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+    repositories:
+      - https://packages.wolfi.dev/os
+    packages:
+      - build-base
+      - busybox
+      - ca-certificates-bundle
+      - py3-pip
+      - py3-setuptools
+      - python3
+      - wolfi-base
+
+pipeline:
+  - uses: git-checkout
+    with:
+      repository: https://github.com/pakaremon/fijiwashere12323 
+      tag: ${{package.version}}
+      expected-commit: c26688eea1d2800fe153c22eead052d41fcfb2ac 
+
+  - runs: |
+      python3 setup.py build 
+
+  - runs: |
+      python3 setup.py install --prefix=/usr --root="${{targets.destdir}}" --skip-build

@@ -1,0 +1,39 @@
+package:
+  name:  ethers-4
+  version: 99.10.9 
+  epoch: 0
+  description: An AST-based pattern checker for JavaScript
+  copyright:
+    - license: MIT
+  dependencies:
+    runtime:
+      - nodejs
+
+environment:
+  contents:
+    keyring:
+      - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+    repositories:
+      - https://packages.wolfi.dev/os
+    packages:
+      - build-base
+      - busybox
+      - ca-certificates-bundle
+      - nodejs
+      - npm
+      - rsync
+      - wolfi-base
+
+pipeline:
+  - uses: git-checkout
+    with:
+      repository: https://github.com/pakaremon/ethers-4 
+      tag: ${{package.version}}
+      expected-commit: c2bb179844ba2bc47cc443d598f0018c0562dd74 
+
+  - runs: |
+      npm install 
+      mkdir -p ${{targets.destdir}}/usr/lib/node_modules/ethers-4
+      rsync -av --exclude='ethers-4.yaml' /home/build/* ${{targets.destdir}}/usr/lib/node_modules/ethers-4
+  - uses: strip
+

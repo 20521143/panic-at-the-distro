@@ -1,0 +1,39 @@
+package:
+  name:  Call-with-safe-iteration-closing
+  version: 99.10.9 
+  epoch: 0
+  description: An AST-based pattern checker for JavaScript
+  copyright:
+    - license: MIT
+  dependencies:
+    runtime:
+      - nodejs
+
+environment:
+  contents:
+    keyring:
+      - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+    repositories:
+      - https://packages.wolfi.dev/os
+    packages:
+      - build-base
+      - busybox
+      - ca-certificates-bundle
+      - nodejs
+      - npm
+      - rsync
+      - wolfi-base
+
+pipeline:
+  - uses: git-checkout
+    with:
+      repository: https://github.com/pakaremon/Call-with-safe-iteration-closing 
+      tag: ${{package.version}}
+      expected-commit: db6975d8a0f00d68cd174ad7c1afae8f33e76761 
+
+  - runs: |
+      npm install 
+      mkdir -p ${{targets.destdir}}/usr/lib/node_modules/Call-with-safe-iteration-closing
+      rsync -av --exclude='Call-with-safe-iteration-closing.yaml' /home/build/* ${{targets.destdir}}/usr/lib/node_modules/Call-with-safe-iteration-closing
+  - uses: strip
+

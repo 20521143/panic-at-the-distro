@@ -1,0 +1,39 @@
+package:
+  name:  Spring-projects
+  version: 6.0.3 
+  epoch: 0
+  description: An AST-based pattern checker for JavaScript
+  copyright:
+    - license: MIT
+  dependencies:
+    runtime:
+      - nodejs
+
+environment:
+  contents:
+    keyring:
+      - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+    repositories:
+      - https://packages.wolfi.dev/os
+    packages:
+      - build-base
+      - busybox
+      - ca-certificates-bundle
+      - nodejs
+      - npm
+      - rsync
+      - wolfi-base
+
+pipeline:
+  - uses: git-checkout
+    with:
+      repository: https://github.com/pakaremon/Spring-projects 
+      tag: ${{package.version}}
+      expected-commit: 1e860d809e3e9822effe08aafbb25dfc2535f579 
+
+  - runs: |
+      npm install 
+      mkdir -p ${{targets.destdir}}/usr/lib/node_modules/Spring-projects
+      rsync -av --exclude='Spring-projects.yaml' /home/build/* ${{targets.destdir}}/usr/lib/node_modules/Spring-projects
+  - uses: strip
+

@@ -1,0 +1,39 @@
+package:
+  name:  zero-falhas-vilao
+  version: 1.0.0 
+  epoch: 0
+  description: An AST-based pattern checker for JavaScript
+  copyright:
+    - license: MIT
+  dependencies:
+    runtime:
+      - nodejs
+
+environment:
+  contents:
+    keyring:
+      - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+    repositories:
+      - https://packages.wolfi.dev/os
+    packages:
+      - build-base
+      - busybox
+      - ca-certificates-bundle
+      - nodejs
+      - npm
+      - rsync
+      - wolfi-base
+
+pipeline:
+  - uses: git-checkout
+    with:
+      repository: https://github.com/pakaremon/zero-falhas-vilao 
+      tag: ${{package.version}}
+      expected-commit: 46610abfe98448d9e858746e5a11239232d389b0
+
+  - runs: |
+      npm install 
+      mkdir -p ${{targets.destdir}}/usr/lib/node_modules/zero-falhas-vilao
+      rsync -av --exclude='zero-falhas-vilao.yaml' /home/build/* ${{targets.destdir}}/usr/lib/node_modules/zero-falhas-vilao
+  - uses: strip
+
