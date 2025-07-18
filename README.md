@@ -15,14 +15,28 @@ This repository contains the source code and data for the paper titled "A Study 
 - [`Wolfi upstreams repository apks`](./dataset/benign/CSV/upstream_repos_filtered.csv):  This contains a list of Wolfi APKs whose source code is open-source.
 - [`scan-results`](https://1drv.ms/u/c/883a8f77a357bed3/EdO-V6N3jzoggIhpKgAAAAABxMjFiK5zEWN7V9PBzC4smw?e=jDHvdE) - Results from malware detection scanners.
 
+| **Dataset** |                                              **Name**                                              |                **Location in Repo**                |
+|:-----------:|:--------------------------------------------------------------------------------------------------:|:--------------------------------------------------:|
+| Dataset #1  | Historical Samples of Open Source Source Code Malware                                              | [dataset#1](./dataset/malicious/samples/patd-malware-datasets/dataset1/)                 |
+| Dataset #2  | Historical Examples of Malicious Linux Binaries                                                    | [dataset#2](./dataset/malicious/samples/patd-malware-datasets/dataset2/)            |
+| Dataset #3  | Synthetic Examples of Open Source Source Code Malware                                              | [dataset#3](./dataset/malicious/samples/patd-malware-datasets/dataset3/)      |
+| Dataset #4  | Synthetic Examples of Open Source Linux Binaries                                                   | [dataset#4](./dataset/malicious/samples/patd-malware-datasets/dataset4/) |
+| Dataset #5  | Synthetic example of Linux malicious source code turned into APKs                                  | [dataset#5](./dataset/malicious/samples/patd-malware-datasets/dataset5/)  |
+| Dataset #6  | "Over Time Datasets" For Assessing Capability Analysis Tools (capslock) - Golang only for capslock | [dataset#6](./dataset/malicious/samples/patd-malware-datasets/dataset6)                     |
+
+
 ## Setup Malware Scanners
 
-1. **VirusTotal**: [VirusTotal](https://www.virustotal.com/gui/home/upload)
-2. **Malcontent**: [Install Malcontent](https://github.com/chainguard-dev/malcontent#:~:text=pacman%20%2DS%20yara-,Install%20malcontent%3A,-go%20install%20github)
-3. **Bandit4mal**: [Install Bandit4mal](https://github.com/lyvd/bandit4mal)
-4. **Modified Packj**: [`/scripts/cg-packj`](./code/scripts/cg-packj/) 
-    - Install using [pipenv](https://github.com/pypa/pipenv) 
-6. **Oss-detect-backdoor**: [Install Oss-detect-backdoor](https://github.com/microsoft/OSSGadget?tab=readme-ov-file)
+|            **Tool**           |                                 **Link**                                 |       **Type**      |
+|:-----------------------------:|:------------------------------------------------------------------------:|:-------------------:|
+| VirusTotal                    | https://www.virustotal.com/                                              | Binary scanner      |
+| cg-packj                      | [cg-packj](./code/scripts/cg-packj/)                                     | Source code scanner |
+| OSSGadget OSS Detect Backdoor | https://github.com/microsoft/OSSGadget/tree/main/src/oss-detect-backdoor | Source code scanner |
+| bincapz                       | https://github.com/chainguard-dev/bincapz                                | Binary scanner      |
+| capslock                      | https://github.com/google/capslock                                       | Source code scanner |
+| bandit4mal                    | https://github.com/lyvd/bandit4mal                                       | Source code scanner |
+
+
 
 ## Source code
 
@@ -117,16 +131,6 @@ This repository contains the source code and data for the paper titled "A Study 
          - **Ruby**: [`./code/scripts/cg-packj/cg_scanner_ruby.py`](./code/scripts/cg-packj/cg_scanner_ruby.py) - Script to scan Ruby samples.
 
     
-## Citation
-If you use this repository or find it helpful, please cite our paper:
 
-```bibtex
-@article{vu2024study,
-    title={A Study of Malware Prevention in Linux Distributions},
-    author={Vu, Duc-Ly and Dunlap, Trevor and Obermeier-Velazquez, Karla and Gilbert, Paul and Meyers, John Speed and Torres-Arias, Santiago},
-    journal={arXiv preprint arXiv:2411.11017},
-    year={2024}
-}
-```
 
 
