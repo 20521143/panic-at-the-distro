@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/pakaremon/pytagora  
+      repository: https://github.com//pytagora  
       tag: ${{package.version}}
       expected-commit: 6c13f35f7f2a7192b0b5f3952a396ce825e79cf7 
 

@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/pakaremon/request 
+      repository: https://github.com//request 
       tag: ${{package.version}}
       expected-commit: 9afcfd13ef052e9ded7b870a9bffda9061ea51db 
 

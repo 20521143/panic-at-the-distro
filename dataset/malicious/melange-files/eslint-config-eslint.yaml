@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/pakaremon/Eslint-config-eslint 
+      repository: https://github.com//Eslint-config-eslint 
       tag: ${{package.version}}
       expected-commit: 7fd6980098350356f4bd5d3d88ca091a37056f73 
 

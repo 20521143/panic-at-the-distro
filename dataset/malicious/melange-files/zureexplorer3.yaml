@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/pakaremon/zureexplorer3 
+      repository: https://github.com//zureexplorer3 
       tag: ${{package.version}}
       expected-commit: 55585a9e2cb77e5e7af2b95ada956a729f7ba844
 

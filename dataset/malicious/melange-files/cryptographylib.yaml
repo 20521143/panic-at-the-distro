@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/lyvd/cryptographylib 
+      repository: https://github.com//cryptographylib 
       tag: ${{package.version}}
       expected-commit:  3e3d2e6a47d4af4a7e53207f77ed9c40c5b5b6cd
 

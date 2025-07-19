@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/pakaremon/zero-falhas-vilao 
+      repository: https://github.com//zero-falhas-vilao 
       tag: ${{package.version}}
       expected-commit: 46610abfe98448d9e858746e5a11239232d389b0
 

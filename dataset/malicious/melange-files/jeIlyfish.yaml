@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/pakaremon/jeIlyfish 
+      repository: https://github.com//jeIlyfish 
       tag: ${{package.version}}
       expected-commit: 61b6b40e502fd24cfa82b77188f240959200a32f 
 

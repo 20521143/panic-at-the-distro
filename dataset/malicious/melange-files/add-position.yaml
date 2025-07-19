@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/lyvd/add-position 
+      repository: https://github.com//add-position 
       tag: ${{package.version}}
       expected-commit: a8c1955df522f2827927e0ad23ca305ee8961cde 
 

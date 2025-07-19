@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/lyvd/aioconsol 
+      repository: https://github.com//aioconsol 
       tag: ${{package.version}}
       expected-commit: 51fce6a70ed8c00d4d1e4186f089fe779ff39b02 
 

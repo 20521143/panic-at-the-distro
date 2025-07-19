@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/pakaremon/ethers-4 
+      repository: https://github.com//ethers-4 
       tag: ${{package.version}}
       expected-commit: c2bb179844ba2bc47cc443d598f0018c0562dd74 
 

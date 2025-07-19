@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/lyvd/urllibdownloader 
+      repository: https://github.com//urllibdownloader 
       tag: ${{package.version}}
       expected-commit: dff55a015baf5e5be27667ad3e8ffceb9ed501f0 
 

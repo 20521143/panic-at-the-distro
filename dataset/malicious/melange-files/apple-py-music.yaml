@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/lyvd/apple-py-music 
+      repository: https://github.com//apple-py-music 
       tag: ${{package.version}}
       expected-commit: a39b62077e7acdf238c75bbd31c5cd5527f4e4e5 
 

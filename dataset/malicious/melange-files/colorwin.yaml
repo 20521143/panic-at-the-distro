@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/lyvd/colorwin 
+      repository: https://github.com//colorwin 
       tag: ${{package.version}}
       expected-commit: 6ee01b36240d0c4f8c5dc11db153bccc8f844024 
 

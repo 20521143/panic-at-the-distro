@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/pakaremon/Call-with-safe-iteration-closing 
+      repository: https://github.com//Call-with-safe-iteration-closing 
       tag: ${{package.version}}
       expected-commit: db6975d8a0f00d68cd174ad7c1afae8f33e76761 
 

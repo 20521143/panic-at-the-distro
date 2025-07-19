@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/pakaremon/plugin-proposal-decorators 
+      repository: https://github.com//plugin-proposal-decorators 
       tag: ${{package.version}}
       expected-commit: a0115b34ad3510e1c031669ceadf426d1574948f 
 

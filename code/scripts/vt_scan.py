@@ -6,7 +6,7 @@ import json
 import sys
 
 # Set your VirusTotal API key here
-API_KEY = '48a0d48d8f64f4f12a3327a4c3d049061821b602d598a07c410201502b8170f4'
+API_KEY = ''
 
 # Define headers for VirusTotal API requests
 HEADERS = {

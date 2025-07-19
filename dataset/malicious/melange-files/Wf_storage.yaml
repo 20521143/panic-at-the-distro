@@ -27,7 +27,7 @@ environment:
 pipeline:
   - uses: git-checkout
     with:
-      repository: https://github.com/pakaremon/Wf_storage 
+      repository: https://github.com//Wf_storage 
       tag: ${{package.version}}
       expected-commit: b01633afd296dbe2a71f1ac6d1829f051d78ebdb 
 
