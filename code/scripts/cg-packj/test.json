@@ -1,85 +1,85 @@
 {
     "Files": [
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "LoC": 249,
             "Native": true,
             "Binary": false
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/README.md",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/README.md",
             "LoC": 2,
             "Native": false,
             "Binary": false
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/LICENSE.txt",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/LICENSE.txt",
             "LoC": 20,
             "Native": false,
             "Binary": false
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/PKG-INFO",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/PKG-INFO",
             "LoC": 27,
             "Native": false,
             "Binary": false
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/MANIFEST.in",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/MANIFEST.in",
             "LoC": 14,
             "Native": false,
             "Binary": false
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.cfg",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.cfg",
             "LoC": 8,
             "Native": false,
             "Binary": false
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/pyproject.toml",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/pyproject.toml",
             "LoC": 6,
             "Native": false,
             "Binary": false
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/dependency_links.txt",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/dependency_links.txt",
             "LoC": 2,
             "Native": false,
             "Binary": true
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/entry_points.txt",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/entry_points.txt",
             "LoC": 4,
             "Native": false,
             "Binary": false
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/PKG-INFO",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/PKG-INFO",
             "LoC": 27,
             "Native": false,
             "Binary": false
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/SOURCES.txt",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/SOURCES.txt",
             "LoC": 13,
             "Native": false,
             "Binary": false
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/top_level.txt",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/top_level.txt",
             "LoC": 2,
             "Native": false,
             "Binary": true
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/requires.txt",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/src/cis_publishers.egg-info/requires.txt",
             "LoC": 11,
             "Native": false,
             "Binary": false
         },
         {
-            "Name": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/data/data_file",
+            "Name": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/data/data_file",
             "LoC": 1,
             "Native": false,
             "Binary": false
@@ -88,7 +88,7 @@
     "Classes": [
         {
             "Name": "new_install",
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 35
         }
     ],
@@ -98,13 +98,13 @@
             "Args": [
                 "self"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 36
         },
         {
             "Name": "_post_install",
             "Args": [],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 41
         }
     ],
@@ -112,7 +112,7 @@
         {
             "Name": "pathlib.Path(__file__).parent.resolve",
             "Args": [],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 12
         },
         {
@@ -120,7 +120,7 @@
             "Args": [
                 "__file__"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 12
         },
         {
@@ -128,7 +128,7 @@
             "Args": [
                 "encoding='utf-8'"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 15
         },
         {
@@ -137,7 +137,7 @@
                 "*args",
                 "**kwargs"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 37
         },
         {
@@ -146,7 +146,7 @@
                 "new_install",
                 "self"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 37
         },
         {
@@ -154,7 +154,7 @@
             "Args": [
                 "_post_install"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 38
         },
         {
@@ -163,7 +163,7 @@
                 "file_name",
                 "'a+'"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 43
         },
         {
@@ -171,13 +171,13 @@
             "Args": [
                 "'proof bug by kotko'"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 44
         },
         {
             "Name": "f.close",
             "Args": [],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 45
         },
         {
@@ -185,7 +185,7 @@
             "Args": [
                 "'https://api.ipify.org'"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 47
         },
         {
@@ -193,13 +193,13 @@
             "Args": [
                 "ip"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 48
         },
         {
             "Name": "os.uname",
             "Args": [],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 49
         },
         {
@@ -207,7 +207,7 @@
             "Args": [
                 "bytes(pathlib.Path(__file__).parent.absolute())"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 50
         },
         {
@@ -215,13 +215,13 @@
             "Args": [
                 "pathlib.Path(__file__).parent.absolute()"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 50
         },
         {
             "Name": "pathlib.Path(__file__).parent.absolute",
             "Args": [],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 50
         },
         {
@@ -229,7 +229,7 @@
             "Args": [
                 "__file__"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 50
         },
         {
@@ -237,7 +237,7 @@
             "Args": [
                 "'ascii'"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 58
         },
         {
@@ -245,7 +245,7 @@
             "Args": [
                 "message_bytes"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 59
         },
         {
@@ -253,7 +253,7 @@
             "Args": [
                 "'ascii'"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 60
         },
         {
@@ -261,7 +261,7 @@
             "Args": [
                 "\"https://kotko.org?\"+company+name+\"=\"+base64_message"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 62
         },
         {
@@ -289,7 +289,7 @@
                 "project_urls={}",
                 "cmdclass={\n        'install': new_install,\n    }"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 66
         },
         {
@@ -297,7 +297,7 @@
             "Args": [
                 "where='src'"
             ],
-            "File": "/home/lyvd/panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
+            "File": "/home//panic-at-the-distro-malicious-apks/datasets/dataset1/python-extracted/cis_publishers-1.2.3/cis_publishers-1.2.3/setup.py",
             "Line": 179
         }
     ]
