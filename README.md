@@ -1,6 +1,6 @@
-# patd-results: A Study of Malware Prevention in Linux Distributions
+# Panic! At The Distro: A Study of Malware Prevention in Linux Distributions
 
-This repository contains the source code and data for the paper titled "A Study of Malware Prevention in Linux Distributions". The primary objective is to evaluate the performance of six open-source malware detection scanners.
+This repository contains the source code and data for the paper titled "Panic! At The Distro: A Study of Malware Prevention in Linux Distributions". The primary objective is to evaluate the performance of six open-source malware detection scanners.
 
 ## Table of Contents
 
@@ -17,8 +17,8 @@ This repository contains the source code and data for the paper titled "A Study 
 
 | **Dataset** |                                              **Name**                                              |                **Location in Repo**                |
 |:-----------:|:--------------------------------------------------------------------------------------------------:|:--------------------------------------------------:|
-| Dataset #1  | Historical Samples of Open Source Source Code Malware                                              | [dataset#1](./dataset/malicious/samples/patd-malware-datasets/dataset1/)                 |
-| Dataset #2  | Historical Examples of Malicious Linux Binaries                                                    | [dataset#2](./dataset/malicious/samples/patd-malware-datasets/dataset2/)            |
+| Dataset #1  | Historical Samples of Open Source Source Code Malware                                              | [dataset#1](./dataset/malicious/samples/patd-malware-datasets/dataset1/README.md)                 |
+| Dataset #2  | Historical Examples of Malicious Linux Binaries                                                    | [dataset#2](./dataset/malicious/samples/patd-malware-datasets/dataset2/README.md)            |
 | Dataset #3  | Synthetic Examples of Open Source Source Code Malware                                              | [dataset#3](./dataset/malicious/samples/patd-malware-datasets/dataset3/)      |
 | Dataset #4  | Synthetic Examples of Open Source Linux Binaries                                                   | [dataset#4](./dataset/malicious/samples/patd-malware-datasets/dataset4/) |
 | Dataset #5  | Synthetic example of Linux malicious source code turned into APKs                                  | [dataset#5](./dataset/malicious/samples/patd-malware-datasets/dataset5/)  |
@@ -30,7 +30,7 @@ This repository contains the source code and data for the paper titled "A Study 
 |            **Tool**           |                                 **Link**                                 |       **Type**      |
 |:-----------------------------:|:------------------------------------------------------------------------:|:-------------------:|
 | VirusTotal                    | https://www.virustotal.com/                                              | Binary scanner      |
-| cg-packj                      | [cg-packj](./code/scripts/cg-packj/)                                     | Source code scanner |
+| cg-packj                      | [cg-packj](./code/scripts/cg-packj/README.md)                                     | Source code scanner |
 | OSSGadget OSS Detect Backdoor | https://github.com/microsoft/OSSGadget/tree/main/src/oss-detect-backdoor | Source code scanner |
 | Malcontent                       | https://github.com/chainguard-dev/malcontent                                | Binary scanner      |
 | capslock                      | https://github.com/google/capslock                                       | Source code scanner |
@@ -55,7 +55,7 @@ This repository contains the source code and data for the paper titled "A Study 
         - [Dataset 3 and Wolfi-apks](./code/notebooks/PATD_data_analysis.ipynb#dataset-3-and-wolfi-apks)
         - [Dataset 5 and Wolfi-apks](./code/notebooks/PATD_data_analysis.ipynb#dataset-5-and-wolfi-apks)
 
-- **Parsed Results format CSV**: [`/results-csv`](./scan-results/CSV/malicious/README.md) - Contains CSV files with parsed results from the [`scan-results`](https://1drv.ms/u/c/883a8f77a357bed3/EdO-V6N3jzoggIhpKgAAAAABxMjFiK5zEWN7V9PBzC4smw?e=PZvejn). These files include only HIGH or CRITICAL alerts, except for [`./scan-results/CSV/benign_malicious`](./scan-results/CSV/benign_malicious/), which contains both benign and malicious.
+- **Parsed Results format CSV**: [`/results-csv`](./scan-results/CSV/malicious/README.md) - Contains CSV files with parsed results from the [`scan-results`](https://1drv.ms/u/c/883a8f77a357bed3/EdO-V6N3jzoggIhpKgAAAAABxMjFiK5zEWN7V9PBzC4smw?e=PZvejn). These files include only HIGH or CRITICAL alerts, except for [`./scan-results/CSV/benign_malicious`](./scan-results/CSV/benign_malicious/README.md), which contains both benign and malicious.
 - **Scripts**: 
     - [`scripts`](./code/scripts/) - Contains automation scripts for running malware detection scanners.
     - [`/parse-results`](./code/scripts/parse-results/) - Script to parse raw scan results into CSV format.

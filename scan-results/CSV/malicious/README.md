@@ -11,7 +11,7 @@ This directory contains extracted alerts from various security scanner results, 
 | [packj.csv](./packj.csv)                      | Alerts from the Packj scanner.                                                              |
 | [vt.csv](./vt.csv)                            | Alerts from VirusTotal scans.                                                               |
 | [bincapz.csv](./bincapz.csv)                  | Alerts from the Malcontent (BinCapz) scanner.                                               |
-| [bincapz_language/](./bincapz_language/)      | Language-specific BinCapz alerts (C, JavaScript, Python, Ruby).                             |
+| [bincapz_language/](./bincapz_language/README.md)      | Language-specific Malcontent alerts (C, JavaScript, Python, Ruby).                             |
 
 ## Tools Overview
 
