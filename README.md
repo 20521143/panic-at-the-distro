@@ -42,7 +42,7 @@ This repository contains the source code and data for the paper titled "Panic! A
 - **Jupyter Notebook**: [`/notebook/PATD_data_analysis.ipynb`](./code/notebooks/PATD_data_analysis.ipynb) - Contains code to generate statistical tables for each scanning tool and ROC curves for the paper.
     - Statistical tables and metrics for each tool:
         - [Performance of VirusTotal (VT) on the Wolfi-upstream-repos and Wolfi apks](./code/notebooks/PATD_data_analysis.ipynb#performance-of-virustotal-vt-on-the-wolfi-upstream-repos-and-wolfi-apks)
-        [Performance of Malcontent on the Wolfi-upstream-repos and Wolfi apks](./code/notebooks/PATD_data_analysis.ipynb#performance-of-malcontent-on-the-wolfi-upstream-repos-and-wolfi-apks)
+        - [Performance of Malcontent on the Wolfi-upstream-repos and Wolfi apks](./code/notebooks/PATD_data_analysis.ipynb#performance-of-malcontent-on-the-wolfi-upstream-repos-and-wolfi-apks)
         - [Performance of Oss-detect-backdoor on the Wolfi-upstream-repos and Wolfi apks](./code/notebooks/PATD_data_analysis.ipynb#performance-of-oss-detect-backdoor-on-the-wolfi-upstream-repos-and-wolfi-apks)
         - [Performance of Packj on the Wolfi-upstream-repos and Wolfi apks](./code/notebooks/PATD_data_analysis.ipynb#performance-of-packj-on-the-wolfi-upstream-repos-and-wolfi-apks)
         - [Performance of Bandit4mal on the Wolfi-upstream-repos and Wolfi apks](./code/notebooks/PATD_data_analysis.ipynb#performance-of-bandit4mal-on-the-wolfi-upstream-repos-and-wolfi-apks)
