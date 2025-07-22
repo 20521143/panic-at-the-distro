@@ -17,11 +17,11 @@ This repository contains the source code and data for the paper titled "Panic! A
 
 | **Dataset** |                                              **Name**                                              |                **Location in Repo**                |
 |:-----------:|:--------------------------------------------------------------------------------------------------:|:--------------------------------------------------:|
-| Dataset #1  | Historical Samples of Open Source Source Code Malware                                              | [dataset#1](./dataset/malicious/samples/patd-malware-datasets/dataset1/README.md)                 |
-| Dataset #2  | Historical Examples of Malicious Linux Binaries                                                    | [dataset#2](./dataset/malicious/samples/patd-malware-datasets/dataset2/README.md)            |
-| Dataset #3  | Synthetic Examples of Open Source Source Code Malware                                              | [dataset#3](./dataset/malicious/samples/patd-malware-datasets/dataset3/)      |
-| Dataset #4  | Synthetic Examples of Open Source Linux Binaries                                                   | [dataset#4](./dataset/malicious/samples/patd-malware-datasets/dataset4/) |
-| Dataset #5  | Synthetic example of Linux malicious source code turned into APKs                                  | [dataset#5](./dataset/malicious/samples/patd-malware-datasets/dataset5/)  |
+| Dataset #1  | Historical Samples of Open Source Source Code Malware                                              | [dataset#1](./dataset/malicious/samples/patd-malware-datasets/dataset1)                 |
+| Dataset #2  | Historical Examples of Malicious Linux Binaries                                                    | [dataset#2](./dataset/malicious/samples/patd-malware-datasets/dataset2)            |
+| Dataset #3  | Synthetic Examples of Open Source Source Code Malware                                              | [dataset#3](./dataset/malicious/samples/patd-malware-datasets/dataset3)      |
+| Dataset #4  | Synthetic Examples of Open Source Linux Binaries                                                   | [dataset#4](./dataset/malicious/samples/patd-malware-datasets/dataset4) |
+| Dataset #5  | Synthetic example of Linux malicious source code turned into APKs                                  | [dataset#5](./dataset/malicious/samples/patd-malware-datasets/dataset5)  |
 | Dataset #6  | "Over Time Datasets" For Assessing Capability Analysis Tools (capslock) - Golang only for capslock | [dataset#6](./dataset/malicious/samples/patd-malware-datasets/dataset6)                     |
 
 
