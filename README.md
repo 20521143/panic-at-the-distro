@@ -12,7 +12,7 @@ This repository contains the source code and data for the paper titled "Panic! A
 - [`Melange files`](./dataset/malicious/melange-files/README.md): This folder contains [melange file](https://github.com/chainguard-dev/melange), which is used to build APK files.
 - [`PATD malware datasets`](./dataset/malicious/samples/patd-malware-datasets/README.md): This contains a malware dataset in paper.
 - [`Wolfi upstreams repository apks`](./dataset/benign/CSV/upstream_repos_filtered.csv):  This contains a list of Wolfi APKs whose source code is open-source.
-- [`scan-results`](https://1drv.ms/u/c/883a8f77a357bed3/EdO-V6N3jzoggIhpKgAAAAABxMjFiK5zEWN7V9PBzC4smw?e=jDHvdE) - Results from malware detection scanners.
+- [`scan-results`](https://drive.google.com/file/d/1SwMt7TewhLQqC3F9X4ZuaebEk1CB1XTP/view?usp=drive_link) - Results from malware detection scanners.
 
 | **Dataset** |                                              **Name**                                              |                **Location in Repo**                |
 |:-----------:|:--------------------------------------------------------------------------------------------------:|:--------------------------------------------------:|

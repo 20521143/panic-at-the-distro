@@ -1,3 +1,3 @@
 Results from malware detection scanners.
-[Link drive](https://1drv.ms/u/c/883a8f77a357bed3/EdO-V6N3jzoggIhpKgAAAAABGZgUp8-O5f24gLNXXoE22w?e=buz304)
+[Link drive](https://drive.google.com/file/d/1SwMt7TewhLQqC3F9X4ZuaebEk1CB1XTP/view?usp=drive_link)
 
