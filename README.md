@@ -56,8 +56,8 @@ This repository contains the source code and data for the paper titled "Panic! A
 
 - **Parsed Results format CSV**: [`/results-csv`](./scan-results/CSV/malicious/README.md) - Contains CSV files with parsed results from the [`scan-results`](https://1drv.ms/u/c/883a8f77a357bed3/EdO-V6N3jzoggIhpKgAAAAABxMjFiK5zEWN7V9PBzC4smw?e=PZvejn). These files include only HIGH or CRITICAL alerts, except for [`./scan-results/CSV/benign_malicious`](./scan-results/CSV/benign_malicious/README.md), which contains both benign and malicious.
 - **Scripts**: 
-    - [`scripts`](./code/scripts/) - Contains automation scripts for running malware detection scanners.
-    - [`/parse-results`](./code/scripts/parse-results/) - Script to parse raw scan results into CSV format.
+    - [`scripts`](./code/scripts/README.md) - Contains automation scripts for running malware detection scanners.
+    - [`/parse-results`](./code/scripts/parse-results/README.md) - Script to parse raw scan results into CSV format.
         - [`./code/scripts/parse-results/parse_vt.py`](./code/scripts/parse-results/parse_vt.py) - Parse VirusTotal scan results from JSON to CSV files, including only high or critical alerts from each security vendor.
             - Usage: 
             ```sh
