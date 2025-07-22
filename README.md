@@ -4,25 +4,24 @@ This repository contains the source code and data for the paper titled "Panic! A
 
 ## Table of Contents
 
-1. [Dataset](#Dataset)
+1. [Dataset](#dataset)
 2. [Setup Malware Scanners](#setup-malware-scanners)
 3. [Source Code](#source-code)
-4. [Citation](#citation)
 
 ## Dataset
-- [`Melange files`](./dataset/malicious/melange-files/): This folder contains [melange file](https://github.com/chainguard-dev/melange), which is used to build APK files.
-- [`PATD malware datasets`](./dataset/malicious/samples/patd-malware-datasets/): This contains a malware dataset in paper.
+- [`Melange files`](./dataset/malicious/melange-files/README.md): This folder contains [melange file](https://github.com/chainguard-dev/melange), which is used to build APK files.
+- [`PATD malware datasets`](./dataset/malicious/samples/patd-malware-datasets/README.md): This contains a malware dataset in paper.
 - [`Wolfi upstreams repository apks`](./dataset/benign/CSV/upstream_repos_filtered.csv):  This contains a list of Wolfi APKs whose source code is open-source.
 - [`scan-results`](https://1drv.ms/u/c/883a8f77a357bed3/EdO-V6N3jzoggIhpKgAAAAABxMjFiK5zEWN7V9PBzC4smw?e=jDHvdE) - Results from malware detection scanners.
 
 | **Dataset** |                                              **Name**                                              |                **Location in Repo**                |
 |:-----------:|:--------------------------------------------------------------------------------------------------:|:--------------------------------------------------:|
-| Dataset #1  | Historical Samples of Open Source Source Code Malware                                              | [dataset#1](./dataset/malicious/samples/patd-malware-datasets/dataset1)                 |
-| Dataset #2  | Historical Examples of Malicious Linux Binaries                                                    | [dataset#2](./dataset/malicious/samples/patd-malware-datasets/dataset2)            |
-| Dataset #3  | Synthetic Examples of Open Source Source Code Malware                                              | [dataset#3](./dataset/malicious/samples/patd-malware-datasets/dataset3)      |
-| Dataset #4  | Synthetic Examples of Open Source Linux Binaries                                                   | [dataset#4](./dataset/malicious/samples/patd-malware-datasets/dataset4) |
-| Dataset #5  | Synthetic example of Linux malicious source code turned into APKs                                  | [dataset#5](./dataset/malicious/samples/patd-malware-datasets/dataset5)  |
-| Dataset #6  | "Over Time Datasets" For Assessing Capability Analysis Tools (capslock) - Golang only for capslock | [dataset#6](./dataset/malicious/samples/patd-malware-datasets/dataset6)                     |
+| Dataset #1  | Historical Samples of Open Source Source Code Malware                                              | [dataset#1](./dataset/malicious/samples/patd-malware-datasets/dataset1/README.md)                 |
+| Dataset #2  | Historical Examples of Malicious Linux Binaries                                                    | [dataset#2](./dataset/malicious/samples/patd-malware-datasets/dataset2/README.md)            |
+| Dataset #3  | Synthetic Examples of Open Source Source Code Malware                                              | [dataset#3](./dataset/malicious/samples/patd-malware-datasets/dataset3/README.md)      |
+| Dataset #4  | Synthetic Examples of Open Source Linux Binaries                                                   | [dataset#4](./dataset/malicious/samples/patd-malware-datasets/dataset4/README.md) |
+| Dataset #5  | Synthetic example of Linux malicious source code turned into APKs                                  | [dataset#5](./dataset/malicious/samples/patd-malware-datasets/dataset5/README.md)  |
+| Dataset #6  | "Over Time Datasets" For Assessing Capability Analysis Tools (capslock) - Golang only for capslock | [dataset#6](./dataset/malicious/samples/patd-malware-datasets/dataset6/README.md)                     |
 
 
 ## Setup Malware Scanners
@@ -31,7 +30,7 @@ This repository contains the source code and data for the paper titled "Panic! A
 |:-----------------------------:|:------------------------------------------------------------------------:|:-------------------:|
 | VirusTotal                    | https://www.virustotal.com/                                              | Binary scanner      |
 | cg-packj                      | [cg-packj](./code/scripts/cg-packj/README.md)                                     | Source code scanner |
-| OSSGadget OSS Detect Backdoor | https://github.com/microsoft/OSSGadget/tree/main/src/oss-detect-backdoor | Source code scanner |
+| OSSGadget OSS Detect Backdoor | https://github.com/microsoft/OSSGadget | Source code scanner |
 | Malcontent                       | https://github.com/chainguard-dev/malcontent                                | Binary scanner      |
 | capslock                      | https://github.com/google/capslock                                       | Source code scanner |
 | bandit4mal                    | https://github.com/lyvd/bandit4mal                                       | Source code scanner |
