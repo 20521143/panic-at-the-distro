@@ -42,20 +42,20 @@ This repository contains the source code and data for the paper titled "A Study 
 
 - **Jupyter Notebook**: [`/notebook/PATD_data_analysis.ipynb`](./code/notebooks/PATD_data_analysis.ipynb) - Contains code to generate statistical tables for each scanning tool and ROC curves for the paper.
     - Statistical tables and metrics for each tool:
-        - [Performance of VirusTotal (VT) on the Wolfi-upstream-repos and Wolfi apks](https://colab.research.google.com/drive/1yymf0-56YQg4lQgg7hk0J1AuocYyTU8X?authuser=2#scrollTo=9PeQqQKnrtyb)
-        - [Performance of Malcontent on the Wolfi-upstream-repos and Wolfi apks](https://colab.research.google.com/drive/1yymf0-56YQg4lQgg7hk0J1AuocYyTU8X?authuser=2#scrollTo=x_s5CG7kSeYG)
-        - [Performance of Oss-detect-backdoor on the Wolfi-upstream-repos and Wolfi apks](https://colab.research.google.com/drive/1yymf0-56YQg4lQgg7hk0J1AuocYyTU8X?authuser=2#scrollTo=KdhF1lPzhjET)
-        - [Performance of Packj on the Wolfi-upstream-repos and Wolfi apks](https://colab.research.google.com/drive/1yymf0-56YQg4lQgg7hk0J1AuocYyTU8X?authuser=2#scrollTo=9Xfi6meT7qP6)
-        - [Performance of Bandit4mal on the Wolfi-upstream-repos and Wolfi apks](https://colab.research.google.com/drive/1yymf0-56YQg4lQgg7hk0J1AuocYyTU8X?authuser=2#scrollTo=mSrlqPbrokEI)
+        - [Performance of VirusTotal (VT) on the Wolfi-upstream-repos and Wolfi apks](./code/notebooks/PATD_data_analysis.ipynb#performance-of-virustotal-vt-on-the-wolfi-upstream-repos-and-wolfi-apks)
+        [Performance of Malcontent on the Wolfi-upstream-repos and Wolfi apks](./code/notebooks/PATD_data_analysis.ipynb#performance-of-malcontent-on-the-wolfi-upstream-repos-and-wolfi-apks)
+        - [Performance of Oss-detect-backdoor on the Wolfi-upstream-repos and Wolfi apks](./code/notebooks/PATD_data_analysis.ipynb#performance-of-oss-detect-backdoor-on-the-wolfi-upstream-repos-and-wolfi-apks)
+        - [Performance of Packj on the Wolfi-upstream-repos and Wolfi apks](./code/notebooks/PATD_data_analysis.ipynb#performance-of-packj-on-the-wolfi-upstream-repos-and-wolfi-apks)
+        - [Performance of Bandit4mal on the Wolfi-upstream-repos and Wolfi apks](./code/notebooks/PATD_data_analysis.ipynb#performance-of-bandit4mal-on-the-wolfi-upstream-repos-and-wolfi-apks)
     - ROC Curves:
-        - [Combined ROC curves](https://colab.research.google.com/drive/1yymf0-56YQg4lQgg7hk0J1AuocYyTU8X?authuser=2#scrollTo=7laHuiT4zoVF)
-        - [Datset 1 and Wolfi upstream repos](https://colab.research.google.com/drive/1yymf0-56YQg4lQgg7hk0J1AuocYyTU8X?authuser=2#scrollTo=lR9xkOJXhOEi&line=1&uniqifier=1)
-        - [Dataset 4 and Wolfi  upstream repos](https://colab.research.google.com/drive/1yymf0-56YQg4lQgg7hk0J1AuocYyTU8X?authuser=2#scrollTo=WTw80vRBmGFW&line=1&uniqifier=1)
-        - [Dataset 2 and Wolfi-apks](https://colab.research.google.com/drive/1yymf0-56YQg4lQgg7hk0J1AuocYyTU8X?authuser=2#scrollTo=wNopHh50njGM&line=1&uniqifier=1)
-        - [Dataset 3 and Wolfi-apks](https://colab.research.google.com/drive/1yymf0-56YQg4lQgg7hk0J1AuocYyTU8X?authuser=2#scrollTo=d2KLnPVJJDBy)
-        - [Dataset 5 and Wolfi-apks](https://colab.research.google.com/drive/1yymf0-56YQg4lQgg7hk0J1AuocYyTU8X?authuser=2#scrollTo=UqiBNkuNO0ta)
+        - [Combined ROC curves](./code/notebooks/PATD_data_analysis.ipynb#combined-roc-curves)
+        - [Datset 1 and Wolfi upstream repos](./code/notebooks/PATD_data_analysis.ipynb#datset-1-and-wolfi-upstream-repos)
+        - [Dataset 4 and Wolfi  upstream repos](./code/notebooks/PATD_data_analysis.ipynb#dataset-4-and-wolfi--upstream-repos)
+        - [Dataset 2 and Wolfi-apks](./code/notebooks/PATD_data_analysis.ipynb#dataset-2-and-wolfi-apks)
+        - [Dataset 3 and Wolfi-apks](./code/notebooks/PATD_data_analysis.ipynb#dataset-3-and-wolfi-apks)
+        - [Dataset 5 and Wolfi-apks](./code/notebooks/PATD_data_analysis.ipynb#dataset-5-and-wolfi-apks)
 
-- **Parsed Results format CSV**: [`/results-csv`](./scan-results/CSV/malicious/) - Contains CSV files with parsed results from the [`scan-results`](https://1drv.ms/u/c/883a8f77a357bed3/EdO-V6N3jzoggIhpKgAAAAABxMjFiK5zEWN7V9PBzC4smw?e=PZvejn). These files include only HIGH or CRITICAL alerts, except for [`./scan-results/CSV/benign_malicious`](./scan-results/CSV/benign_malicious/), which contains both benign and malicious.
+- **Parsed Results format CSV**: [`/results-csv`](./scan-results/CSV/malicious/README.md) - Contains CSV files with parsed results from the [`scan-results`](https://1drv.ms/u/c/883a8f77a357bed3/EdO-V6N3jzoggIhpKgAAAAABxMjFiK5zEWN7V9PBzC4smw?e=PZvejn). These files include only HIGH or CRITICAL alerts, except for [`./scan-results/CSV/benign_malicious`](./scan-results/CSV/benign_malicious/), which contains both benign and malicious.
 - **Scripts**: 
     - [`scripts`](./code/scripts/) - Contains automation scripts for running malware detection scanners.
     - [`/parse-results`](./code/scripts/parse-results/) - Script to parse raw scan results into CSV format.
