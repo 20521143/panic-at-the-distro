@@ -54,7 +54,7 @@ This repository contains the source code and data for the paper titled "Panic! A
         - [Dataset 3 and Wolfi-apks](./code/notebooks/PATD_data_analysis.ipynb#dataset-3-and-wolfi-apks)
         - [Dataset 5 and Wolfi-apks](./code/notebooks/PATD_data_analysis.ipynb#dataset-5-and-wolfi-apks)
 
-- **Parsed Results format CSV**: [`/results-csv`](./scan-results/CSV/malicious/README.md) - Contains CSV files with parsed results from the [`scan-results`](https://1drv.ms/u/c/883a8f77a357bed3/EdO-V6N3jzoggIhpKgAAAAABxMjFiK5zEWN7V9PBzC4smw?e=PZvejn). These files include only HIGH or CRITICAL alerts, except for [`./scan-results/CSV/benign_malicious`](./scan-results/CSV/benign_malicious/README.md), which contains both benign and malicious.
+- **Parsed Results format CSV**: [`/results-csv`](./scan-results/CSV/malicious/README.md) - Contains CSV files with parsed results from the [`scan-results`](https://drive.google.com/file/d/1SwMt7TewhLQqC3F9X4ZuaebEk1CB1XTP/view?usp=drive_link). These files include only HIGH or CRITICAL alerts, except for [`./scan-results/CSV/benign_malicious`](./scan-results/CSV/benign_malicious/README.md), which contains both benign and malicious.
 - **Scripts**: 
     - [`scripts`](./code/scripts/README.md) - Contains automation scripts for running malware detection scanners.
     - [`/parse-results`](./code/scripts/parse-results/README.md) - Script to parse raw scan results into CSV format.
