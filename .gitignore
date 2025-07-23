@@ -1,1 +1,3 @@
 dataset/malicious/Backstabbers-Knife-Collection-main.zip
+**/__pycache__/
+*.py[cod]
